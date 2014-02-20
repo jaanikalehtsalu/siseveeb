@@ -8,18 +8,24 @@
 	<meta name="author" content="">
 	<link rel="shortcut icon" href="assets/ico/favicon.png">
 
-	<title ><?=PROJECT_NAME?></title>
-
-
 	<!-- Bootstrap core CSS -->
 	<link href="assets/components/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Custom styles for this template -->
+    <!--<img src="http://www.accessmba.com/uploads/tx_templavoila/IE_Business_School.JPG"/>
+    <style>
+        img{
+            align: center;
+            min-height: 50px
+        }
+        -->
+    </style>
 	<style >
 		body {
 			min-height: 935px !important;
-			padding-top: 60px;
+			padding-top: 100px;
 			background: url(<?= ASSETS_URL ?>img/bg.jpg);
+
             background-color: #008800;
             background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#003500), to(#008800));
 		}
