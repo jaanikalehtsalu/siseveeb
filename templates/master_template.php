@@ -46,7 +46,7 @@
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="#">Pealeht</a></li>
-				<li><a href="#ruhmad">Rühmad</a></li>
+				<li><a href="ruhmad">Rühmad</a></li>
 				<li><a href="ained">Ained</a></li>
                 <li><a href="#klass_ruum">Klassi ruumid</a></li>
 				<li class="dropdown">
