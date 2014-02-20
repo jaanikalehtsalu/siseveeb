@@ -19,6 +19,8 @@
 			min-height: 2000px !important;
 			padding-top: 60px;
 			background: url(<?= ASSETS_URL ?>img/bg.jpg);
+            background-color: #008800;
+            background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#003500), to(#008800));
 		}
 	</style>
 

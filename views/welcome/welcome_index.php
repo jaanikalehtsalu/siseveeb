@@ -1,12 +1,13 @@
-<h1> Teretulemast Siseveebi!</h1>
+<h1> Tere tulemast Siseveebi!</h1>
 <style>
     h1{
-        border-radius: 5px;
-        border: 2px solid #6495ED;
-        background-color: #BCD2EE;
+        border-radius: 50px;
+        border: 2px solid #000000;
+        background-color: #b2dba1;
         height: 50px;
+        width: 720px;
         text-align: center;
-        font-family: Garamond, serif;
+        font-family: Arial, serif;
     }
 }
 <script type="text/javascript">
@@ -16,7 +17,4 @@
         });
     }
 </script>
-
-
-<p>TheWayOfTheFuture</p>
 
