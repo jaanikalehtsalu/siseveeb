@@ -41,26 +41,37 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#"><?=PROJECT_NAME?></a>
+			<a class="navbar-brand" href="#" class="btn btn-info" ><?=PROJECT_NAME?></a>
 		</div>
 		<div class="navbar-collapse collapse">
-			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Pealeht</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="ops" >Õpetajad</a></li>
+                    <li><a href="dire" ">Direktor</a></li>
+                    <li><a href="khk">Ametlik veebileht</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="http://www.khk.ee/">Separated link</a></li>
+                    <li><a href="http://www.khk.ee/">One more separated link</a></li>
+                </ul>
+            </li>
+
+               <li class="nav navbar-nav navbar-left">
+                    <div class="btn-group btn-breadcrumb">
+                        <a href="#" class="btn btn-primary"><i class="glyphicon glyphicon-home"></i></a>
+                        <a href="#" class="btn btn-info">Rühmad</a>
+                        <a href="#" class="btn btn-success">Tunnid</a>
+                        <a href="#" class="btn btn-warning">Õpetaja</a>
+                        <a href="#" class="btn btn-warning">Õpilased</a>
+                    </div>
+                </li>
+                <!--
 				<li><a href="ruhmad">Rühmad</a></li>
 				<li><a href="ained">Ained</a></li>
                 <li><a href="klass_ruum">Klassiruumid</a></li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><a href="ops" >Õpetajad</a></li>
-						<li><a href="dire" ">Direktor</a></li>
-						<li><a href="khk">Ametlik veebileht</a></li>
-						<li class="divider"></li>
-						<li class="dropdown-header">Nav header</li>
-						<li><a href="http://www.khk.ee/">Separated link</a></li>
-						<li><a href="http://www.khk.ee/">One more separated link</a></li>
-					</ul>
-				</li>
+                -->
+
 			</ul>
             <div class="col-sm-3 col-md-3">
                 <form class="navbar-form" role="search">
