@@ -1,7 +1,7 @@
 <?php
 
 // Project constants
-define('PROJECT_NAME', 'siseveeb');
+define('PROJECT_NAME', 'Siseveeb');
 define('DEFAULT_CONTROLLER', 'welcome');
 define('DEBUG', false);
 

@@ -10,13 +10,14 @@
 
 	<title ><?=PROJECT_NAME?></title>
 
+
 	<!-- Bootstrap core CSS -->
 	<link href="assets/components/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Custom styles for this template -->
 	<style >
 		body {
-			min-height: 2000px !important;
+			min-height: 935px !important;
 			padding-top: 60px;
 			background: url(<?= ASSETS_URL ?>img/bg.jpg);
             background-color: #008800;
@@ -43,10 +44,19 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#" class="btn btn-info" ><?=PROJECT_NAME?></a>
+			<!--<a class="navbar-brand" href="#" class="btn btn-info" ><?=PROJECT_NAME?></a>
+            <style>
+                .navbar-brand{
+                    color:#008800;
+
+                }
+
+            </style>
+            -->
 		</div>
 		<div class="navbar-collapse collapse">
-            <li class="dropdown">
+
+           <!-- <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li><a href="ops" >Õpetajad</a></li>
@@ -58,6 +68,7 @@
                     <li><a href="http://www.khk.ee/">One more separated link</a></li>
                 </ul>
             </li>
+            -->
 
                <li class="nav navbar-nav navbar-left">
                     <div class="btn-group btn-breadcrumb">
@@ -65,7 +76,7 @@
                         <a href="#" class="btn btn-info">Rühmad</a>
                         <a href="#" class="btn btn-success">Tunnid</a>
                         <a href="#" class="btn btn-warning">Õpetaja</a>
-                        <a href="#" class="btn btn-warning">Õpilased</a>
+                        <a href="#" class="btn btn-danger">Õpilased</a>
                     </div>
                 </li>
                 <!--
@@ -73,6 +84,7 @@
 				<li><a href="ained">Ained</a></li>
                 <li><a href="klass_ruum">Klassiruumid</a></li>
                 -->
+
 
 			</ul>
             <!-- <ul class="nav navbar-nav navbar-right">
@@ -91,6 +103,7 @@
     <?  @require "views/$controller/{$controller}_$action.php"; ?>
 
 </div> <!-- /container -->
+
 
 
 <!-- Bootstrap core JavaScript
