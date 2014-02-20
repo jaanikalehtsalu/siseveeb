@@ -57,8 +57,8 @@
 						<li><a href="khk">Ametlik veebileht</a></li>
 						<li class="divider"></li>
 						<li class="dropdown-header">Nav header</li>
-						<li><a href="#">Separated link</a></li>
-						<li><a href="#">One more separated link</a></li>
+						<li><a href="http://www.khk.ee/">Separated link</a></li>
+						<li><a href="http://www.khk.ee/">One more separated link</a></li>
 					</ul>
 				</li>
 			</ul>
