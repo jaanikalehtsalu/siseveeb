@@ -8,7 +8,7 @@
 	<meta name="author" content="">
 	<link rel="shortcut icon" href="assets/ico/favicon.png">
 
-	<title><?=PROJECT_NAME?></title>
+	<title ><?=PROJECT_NAME?></title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="assets/components/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
@@ -62,10 +62,10 @@
 					</ul>
 				</li>
 			</ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="../navbar/">Default</a></li>
-                <li><a href="../navbar-static-top/">Static top</a></li>
-                <li class="active"><a href="./">Fixed top</a></li>
+            <!-- <ul class="nav navbar-nav navbar-right">
+                 <li><a href="../navbar/">Default</a></li>
+                 <li><a href="../navbar-static-top/">Static top</a></li>
+                 <li class="active"><a href="./">Fixed top</a></li> -->
             </ul>
         </div>
 	</div>
