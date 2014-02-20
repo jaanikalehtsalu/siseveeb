@@ -48,7 +48,7 @@
 				<li class="active"><a href="#">Pealeht</a></li>
 				<li><a href="ruhmad">Rühmad</a></li>
 				<li><a href="ained">Ained</a></li>
-                <li><a href="#klass_ruum">Klassi ruumid</a></li>
+                <li><a href="klass_ruum">Klassiruumid</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
 					<ul class="dropdown-menu">
