@@ -62,7 +62,7 @@
 		</div>
 		<div class="navbar-collapse collapse">
 
-           <!-- <li class="dropdown">
+           <!--<li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li><a href="ops" >Õpetajad</a></li>
@@ -87,7 +87,7 @@
                             a{
                                 height: 50px;
                                 width: 100px;
-
+                                font-size: 20px;
                             }
 
                         </style>
@@ -103,8 +103,12 @@
 			</ul>
             <div class="col-sm-3 col-md-3">
                 <form class="navbar-form" role="search">
+
+
+
+
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search" name="q">
+                        <input type="text" class="form-control" placeholder="Otsi" name="q">
                         <div class="input-group-btn">
                             <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
                         </div>
