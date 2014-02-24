@@ -12,12 +12,12 @@
 	<link href="assets/components/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Custom styles for this template -->
-    <img src="http://images.luxuryaptswny.com/images/skyline_home.jpg"/>
+    <img class="banner"src="http://images.luxuryaptswny.com/images/skyline_home.jpg"/>
     <style>
-        img{
-            align: left;
-            height: 128px;
-            border-radius: 20px;
+        .banner{
+            height: 50px;
+            width: 2000px;
+            position-top:1%
         }
 
     </style>
@@ -51,11 +51,12 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
+            <img class="tere" src="http://www.imageupload.co.uk/images/2014/02/24/SiseVeeb.png" width="300px" />
+                <style>
+                    .tere	{ position:fixed; left:2%; height:50px; }
 
-            <style>
+                </style>
 
-
-            </style>
 
 		</div>
 		<div class="navbar-collapse collapse">
@@ -76,16 +77,13 @@
 
                <li class="nav navbar-nav navbar-left">
                     <div class="btn-group btn-breadcrumb">
-                        <a href="#" class="btn btn-primary"><i class="glyphicon glyphicon-home"></i></a>
+                        <a href="#" class="btn btn-primary"><span>Avaleht</span></a>
                         <a href="ruhmad" class="btn btn-info"><span>Rühmad</span></a>
                         <a href="tunnid" class="btn btn-success"><span>Tunnid</span></a>
                         <a href="opetaja" class="btn btn-warning"><span>Õpetaja</span></a>
                         <a href="opilased" class="btn btn-danger"><span>Õpilased</span></a>
                         <style>
-                            a{
-                                height: 50px;
-                                width: 100px;
-                            }
+                            a{ position:fixed;left:61%;  height:50px; }
                             span{
                                 font-size: 20px;
                                 font-family: cursive,serif;
@@ -112,6 +110,13 @@
                         <input type="text" class="form-control" placeholder="Otsi" name="q">
                         <div class="input-group-btn">
                             <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            <style>
+                                .input-group{
+                                 position:fixed;left:80%
+
+                                }
+
+                            </style>
                         </div>
                     </div>
                 </form>
