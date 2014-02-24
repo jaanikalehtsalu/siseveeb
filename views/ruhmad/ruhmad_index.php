@@ -1,5 +1,5 @@
 <div class="container">
-    <h1>Klõpsa filtri ikoonile<small></small></h1>
+    <h1>Rühmad<small></small></h1>
     <!--<div class="row">
         <div class="col-md-6">
             <div class="panel panel-primary">
@@ -61,22 +61,17 @@
                 </div>
                 <table class="table table-hover" id="task-table">
                     <thead>
-                    <tr>
-                        <th></th>
-                        <th class="paev"></th>
-                        <th class="paev"></th>
-                        <th class="paev"></th>
-                        <th class="paev"></th>
-                        <th class="paev"></th>
-                    </tr>
+
                     </thead>
                     <tbody>
-                    <tr>
-                    <th class="ruhmad">RÜHM 1</th><!--Something that we need to fix, but i dont know, how.!!!!-->
-                    <th class="ruhmad">RÜHM 2</th>
-                    <th class="ruhmad">RÜHM 3</th>
-                    <th class="ruhmad">RÜHM 4</th>
-                    </tr>
+                    <?$i=0;?>
+                    <?foreach ( $ruhmad as $ruhm ):?>
+                        <?if($i++ % 4 == 0){echo "<tr>";} /* replace br with tr tags if you want*/ ?>
+                        <?if ($ruhm['code'] == $code || !$code): ?>
+                            <? $code = $ruhm['code']; ?>
+                            <th class="ruhmad"><a href="<?=BASE_URL?>ruhmad/view/<?=$ruhm['ruhmad_id']?>"><?=$ruhm['ruhmad_luhend']?></a></th>
+                        <?endif; ?>
+                    <?endforeach; ?>
                     </tbody>
                 </table>
             </div>
