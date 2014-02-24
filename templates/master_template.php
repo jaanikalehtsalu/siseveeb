@@ -12,13 +12,13 @@
 	<link href="assets/components/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Custom styles for this template -->
-    <!--<img src="http://www.accessmba.com/uploads/tx_templavoila/IE_Business_School.JPG"/>
+    <img src="http://images.luxuryaptswny.com/images/skyline_home.jpg"/>
     <style>
         img{
             align: center;
-            min-height: 50px
+            height: 150px;
         }
-        -->
+
     </style>
 	<style >
 		body {
@@ -83,6 +83,14 @@
                         <a href="#" class="btn btn-success">Tunnid</a>
                         <a href="#" class="btn btn-warning">Õpetaja</a>
                         <a href="#" class="btn btn-danger">Õpilased</a>
+                        <style>
+                            a{
+                                height: 50px;
+                                width: 100px;
+
+                            }
+
+                        </style>
                     </div>
                 </li>
                 <!--
