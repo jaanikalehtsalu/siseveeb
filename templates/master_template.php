@@ -15,8 +15,9 @@
     <img src="http://images.luxuryaptswny.com/images/skyline_home.jpg"/>
     <style>
         img{
-            align: center;
-            height: 150px;
+            align: left;
+            height: 128px;
+            border-radius: 20px;
         }
 
     </style>
@@ -50,15 +51,12 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<!--<a class="navbar-brand" href="#" class="btn btn-info" ><?=PROJECT_NAME?></a>
-            <style>
-                .navbar-brand{
-                    color:#008800;
 
-                }
+            <style>
+
 
             </style>
-            -->
+
 		</div>
 		<div class="navbar-collapse collapse">
 
@@ -90,7 +88,7 @@
                             }
                             span{
                                 font-size: 20px;
-
+                                font-family: cursive,serif;
                             }
 
                         </style>

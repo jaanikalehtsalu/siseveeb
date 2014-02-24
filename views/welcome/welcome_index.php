@@ -1,7 +1,7 @@
 <h1> Tere tulemast Siseveebi!</h1>
 <style>
     h1{
-        border-radius: 50px;
+        border-radius: 70px;
         color: #000000;
         border: 2px solid #000000;
         background-color: #dbd63d;
@@ -9,7 +9,7 @@
         height: 50px;
         width: 720px;
         text-align: center;
-        font-family: Arial, serif;
+        font-family: cursive, serif;
     }
 }
 <script type="text/javascript">
