@@ -79,15 +79,18 @@
                <li class="nav navbar-nav navbar-left">
                     <div class="btn-group btn-breadcrumb">
                         <a href="#" class="btn btn-primary"><i class="glyphicon glyphicon-home"></i></a>
-                        <a href="#" class="btn btn-info">Rühmad</a>
-                        <a href="#" class="btn btn-success">Tunnid</a>
-                        <a href="#" class="btn btn-warning">Õpetaja</a>
-                        <a href="#" class="btn btn-danger">Õpilased</a>
+                        <a href="ruhmad" class="btn btn-info"><span>Rühmad</span></a>
+                        <a href="tunnid" class="btn btn-success"><span>Tunnid</span></a>
+                        <a href="opetaja" class="btn btn-warning"><span>Õpetaja</span></a>
+                        <a href="opilased" class="btn btn-danger"><span>Õpilased</span></a>
                         <style>
                             a{
                                 height: 50px;
                                 width: 100px;
+                            }
+                            span{
                                 font-size: 20px;
+
                             }
 
                         </style>
