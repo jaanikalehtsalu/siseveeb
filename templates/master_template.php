@@ -51,11 +51,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-            <img class="tere" src="http://www.imageupload.co.uk/images/2014/02/24/SiseVeeb.png" width="300px" />
-                <style>
-                    .tere	{ position:fixed; left:2%; height:50px; }
-
-                </style>
+            </s>
 
 
 		</div>
@@ -74,16 +70,20 @@
                 </ul>
             </li>
             -->
-
                <li class="nav navbar-nav navbar-left">
+
                     <div class="btn-group btn-breadcrumb">
+
                         <a href="#" class="btn btn-primary"><span>Avaleht</span></a>
                         <a href="ruhmad" class="btn btn-info"><span>Rühmad</span></a>
                         <a href="tunnid" class="btn btn-success"><span>Tunnid</span></a>
                         <a href="opetaja" class="btn btn-warning"><span>Õpetaja</span></a>
                         <a href="opilased" class="btn btn-danger"><span>Õpilased</span></a>
                         <style>
-                            a{ position:fixed;left:61%;  height:50px; }
+                            a{
+                                -                                height: 50px;
+                                -                                width: 100px;
+                            -                            }
                             span{
                                 font-size: 20px;
                                 font-family: cursive,serif;
